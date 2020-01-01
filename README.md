@@ -15,6 +15,7 @@ One of the problems when using li-ion batteries is the charging, without a prope
 
 # Useful links
 - [Design your USB-C PD Device](https://www.electronicproducts.com/Analog_Mixed_Signal_ICs/Power_Management/Design_your_next_USB_Type_C_USB_PD_device_with_buck_boost_battery_chargers.aspx) 
+- [Dual port USB Type-C Power Delivery Powerbank Reference Design](http://www.ti.com/lit/ug/tidude8/tidude8.pdf)
 
 
 
