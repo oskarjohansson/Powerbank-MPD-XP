@@ -30,4 +30,37 @@ F 9 "TPS563200DDCT" H 5900 3250 50  0001 L CNN "Manufacturer_Part_Number"
 	1    4950 3850
 	1    0    0    -1  
 $EndComp
+Text GLabel 4700 4050 0    50   Input ~ 0
+SYS
+Wire Wire Line
+	4700 4050 4850 4050
+$Comp
+L Device:C C?
+U 1 1 5E70F357
+P 4850 4300
+F 0 "C?" H 4965 4346 50  0000 L CNN
+F 1 "C" H 4965 4255 50  0000 L CNN
+F 2 "" H 4888 4150 50  0001 C CNN
+F 3 "~" H 4850 4300 50  0001 C CNN
+	1    4850 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4150 4850 4050
+Connection ~ 4850 4050
+Wire Wire Line
+	4850 4050 4950 4050
+$Comp
+L power:GND #PWR?
+U 1 1 5E70FB38
+P 4850 4550
+F 0 "#PWR?" H 4850 4300 50  0001 C CNN
+F 1 "GND" H 4855 4377 50  0000 C CNN
+F 2 "" H 4850 4550 50  0001 C CNN
+F 3 "" H 4850 4550 50  0001 C CNN
+	1    4850 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4550 4850 4450
 $EndSCHEMATC
