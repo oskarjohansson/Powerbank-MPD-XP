@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -403,9 +403,9 @@ F 3 "" H 9850 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9800 3700 2    50   Input ~ 0
-SCL
+SCL_1
 Text GLabel 9800 3800 2    50   Input ~ 0
-SDA
+SDA_1
 Wire Wire Line
 	9300 3700 9400 3700
 $Comp

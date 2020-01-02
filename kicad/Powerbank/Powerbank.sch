@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -36,12 +36,6 @@ S 5800 4150 700  650
 U 5E0D0913
 F0 "Buck - TPS563200" 50
 F1 "Buck.sch" 50
-$EndSheet
-$Sheet
-S 7800 3200 700  500 
-U 5E0D16A0
-F0 "LDO TLV70433" 50
-F1 "LDO.sch" 50
 $EndSheet
 $Sheet
 S 7900 4350 1300 850 

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -397,9 +397,9 @@ Wire Wire Line
 	8350 4050 8350 4550
 Connection ~ 8350 4550
 Text GLabel 6250 4350 2    50   Input ~ 0
-SCL
+SCL_1
 Text GLabel 6250 4450 2    50   Input ~ 0
-SDA
+SDA_1
 Wire Wire Line
 	6250 4450 6050 4450
 Wire Wire Line
