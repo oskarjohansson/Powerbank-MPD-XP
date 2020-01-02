@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -117,4 +117,101 @@ Wire Wire Line
 	4950 2800 4950 2750
 Text GLabel 5500 2800 2    50   Input ~ 0
 CELL4
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5E810B0B
+P 3300 3500
+F 0 "J?" H 3408 3681 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3408 3590 50  0000 C CNN
+F 2 "" H 3300 3500 50  0001 C CNN
+F 3 "~" H 3300 3500 50  0001 C CNN
+	1    3300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5E81172F
+P 3350 4500
+F 0 "J?" H 3458 4881 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 3458 4790 50  0000 C CNN
+F 2 "" H 3350 4500 50  0001 C CNN
+F 3 "~" H 3350 4500 50  0001 C CNN
+	1    3350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-BATT #PWR?
+U 1 1 5E812397
+P 3650 3600
+F 0 "#PWR?" H 3650 3450 50  0001 C CNN
+F 1 "-BATT" V 3665 3728 50  0000 L CNN
+F 2 "" H 3650 3600 50  0001 C CNN
+F 3 "" H 3650 3600 50  0001 C CNN
+	1    3650 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5E812953
+P 3650 3500
+F 0 "#PWR?" H 3650 3350 50  0001 C CNN
+F 1 "+BATT" V 3665 3628 50  0000 L CNN
+F 2 "" H 3650 3500 50  0001 C CNN
+F 3 "" H 3650 3500 50  0001 C CNN
+	1    3650 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 3500 3500 3500
+Wire Wire Line
+	3500 3600 3650 3600
+$Comp
+L power:-BATT #PWR?
+U 1 1 5E813978
+P 3700 4700
+F 0 "#PWR?" H 3700 4550 50  0001 C CNN
+F 1 "-BATT" V 3715 4828 50  0000 L CNN
+F 2 "" H 3700 4700 50  0001 C CNN
+F 3 "" H 3700 4700 50  0001 C CNN
+	1    3700 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 4700 3550 4700
+Text GLabel 3750 4600 2    50   Input ~ 0
+CELL1
+Text GLabel 3750 4500 2    50   Input ~ 0
+CELL2
+Text GLabel 3750 4400 2    50   Input ~ 0
+CELL3
+Wire Wire Line
+	3550 4400 3750 4400
+Wire Wire Line
+	3550 4500 3750 4500
+Wire Wire Line
+	3750 4600 3550 4600
+Text GLabel 3750 4300 2    50   Input ~ 0
+CELL4
+Wire Wire Line
+	3550 4300 3750 4300
+Text Notes 3050 4050 0    50   ~ 0
+Balance connector
+Wire Notes Line
+	3050 4050 4150 4050
+Wire Notes Line
+	4150 4050 4150 4800
+Wire Notes Line
+	4150 4800 3050 4800
+Wire Notes Line
+	3050 4800 3050 4050
+Text Notes 3050 3250 0    50   ~ 0
+Battery connector
+Wire Notes Line
+	3050 3250 3050 3800
+Wire Notes Line
+	3050 3800 4150 3800
+Wire Notes Line
+	4150 3800 4150 3250
+Wire Notes Line
+	4150 3250 3050 3250
 $EndSCHEMATC
