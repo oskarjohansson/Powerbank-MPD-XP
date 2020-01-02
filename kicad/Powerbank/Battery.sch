@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:Powerbank-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -14,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT4
 U 1 1 5E0D2631
 P 4950 4250
-F 0 "BT?" H 5068 4346 50  0000 L CNN
+F 0 "BT4" H 5068 4346 50  0000 L CNN
 F 1 "Battery_Cell" H 5068 4255 50  0000 L CNN
 F 2 "" V 4950 4310 50  0001 C CNN
 F 3 "~" V 4950 4310 50  0001 C CNN
@@ -25,10 +26,10 @@ F 3 "~" V 4950 4310 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT3
 U 1 1 5E0D2E8A
 P 4950 3850
-F 0 "BT?" H 5068 3946 50  0000 L CNN
+F 0 "BT3" H 5068 3946 50  0000 L CNN
 F 1 "Battery_Cell" H 5068 3855 50  0000 L CNN
 F 2 "" V 4950 3910 50  0001 C CNN
 F 3 "~" V 4950 3910 50  0001 C CNN
@@ -36,10 +37,10 @@ F 3 "~" V 4950 3910 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT2
 U 1 1 5E0D30C8
 P 4950 3450
-F 0 "BT?" H 5068 3546 50  0000 L CNN
+F 0 "BT2" H 5068 3546 50  0000 L CNN
 F 1 "Battery_Cell" H 5068 3455 50  0000 L CNN
 F 2 "" V 4950 3510 50  0001 C CNN
 F 3 "~" V 4950 3510 50  0001 C CNN
@@ -47,10 +48,10 @@ F 3 "~" V 4950 3510 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT1
 U 1 1 5E0D32C3
 P 4950 3050
-F 0 "BT?" H 5068 3146 50  0000 L CNN
+F 0 "BT1" H 5068 3146 50  0000 L CNN
 F 1 "Battery_Cell" H 5068 3055 50  0000 L CNN
 F 2 "" V 4950 3110 50  0001 C CNN
 F 3 "~" V 4950 3110 50  0001 C CNN
@@ -118,10 +119,10 @@ Wire Wire Line
 Text GLabel 5500 2800 2    50   Input ~ 0
 CELL4
 $Comp
-L Connector:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male J3
 U 1 1 5E810B0B
 P 3300 3500
-F 0 "J?" H 3408 3681 50  0000 C CNN
+F 0 "J3" H 3408 3681 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 3408 3590 50  0000 C CNN
 F 2 "" H 3300 3500 50  0001 C CNN
 F 3 "~" H 3300 3500 50  0001 C CNN
@@ -129,12 +130,12 @@ F 3 "~" H 3300 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x05_Male J?
+L Connector:Conn_01x05_Male J4
 U 1 1 5E81172F
 P 3350 4500
-F 0 "J?" H 3458 4881 50  0000 C CNN
+F 0 "J4" H 3458 4881 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 3458 4790 50  0000 C CNN
-F 2 "" H 3350 4500 50  0001 C CNN
+F 2 "Connector_JST:JST_ZE_BM05B-ZESS-TBT_1x05-1MP_P1.50mm_Vertical" H 3350 4500 50  0001 C CNN
 F 3 "~" H 3350 4500 50  0001 C CNN
 	1    3350 4500
 	1    0    0    -1  
