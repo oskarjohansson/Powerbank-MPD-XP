@@ -496,7 +496,7 @@ DEF Powerbank_BQ4050RSMR IC 0 30 Y Y 1 F N
 F0 "IC" 1250 600 50 H V L CNN
 F1 "Powerbank_BQ4050RSMR" 1250 500 50 H V L CNN
 F2 "QFN40P400X400X100-33N-D" 1250 400 50 H I L CNN
-F3 "http://www.ti.com/lit/gpn/bq4050" 1250 300 50 H I L CNN
+F3 "" 1250 300 50 H I L CNN
 F4 "1-4 Series CEDV Battery Fuel (Gas) Gauge" 1250 200 50 H I L CNN "Description"
 F5 "1" 1250 100 50 H I L CNN "Height"
 F6 "595-BQ4050RSMR" 1250 0 50 H I L CNN "Mouser Part Number"
