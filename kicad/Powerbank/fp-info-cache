@@ -1,4 +1,4 @@
-16315232114555375
+16318388189068868
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -63819,6 +63819,13 @@ Potentiometer vertical Vishay T73YP
 3
 3
 Powerbank
+QFN-56_7x7_Pitch0.4mm
+
+
+0
+59
+59
+Powerbank
 QFN40P300X300X80-21N-D
 TPD6S300ARUKR
 Integrated Circuit
@@ -63867,6 +63874,13 @@ Power Supply
 0
 5
 5
+Powerbank
+SW_B3U-3000P
+
+
+0
+2
+2
 Powerbank
 WE_Inductor_7443330220
 
