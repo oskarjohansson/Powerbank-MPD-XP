@@ -608,8 +608,6 @@ Wire Wire Line
 	5600 4450 5600 4250
 Text GLabel 5700 4450 3    50   Input ~ 0
 TP12
-Wire Wire Line
-	5700 4450 5700 4250
 $Comp
 L Device:C C55
 U 1 1 5E8FA91B
@@ -1095,4 +1093,6 @@ Wire Wire Line
 	1000 3350 1200 3350
 Wire Wire Line
 	1200 3250 1000 3250
+Wire Wire Line
+	5700 4450 5700 4250
 $EndSCHEMATC
