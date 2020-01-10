@@ -1,5 +1,5 @@
 # Powerbank 4S
-A powerbank to primarily use with MDP-XP Modular Power Supply. It can be found [here](https://www.welectron.com/Miniware-MDP-XP-Modular-Power-Supply). 
+A powerbank to primarily use with MDP-XP Modular Power Supply. It can be found [here](https://www.welectron.com/Miniware-MDP-XP-Modular-Power-Supply). Though, the MDP-XP doesn't support PD, but only QC, so it won't be compatible. 
 
 ## Background 
 One of the problems when using li-ion batteries is the charging, without a proper charger the cells wil be damages and probably start a fire. To remove these problems one solution would be a BMS with USB-C as a charging and discharging port. This doesn't exist yet, so someone has to make it. I also want to use it with both the powersupply and to charge my laptop using USB-C. 
