@@ -13,6 +13,17 @@ One of the problems when using li-ion batteries is the charging, without a prope
 - Able to charge computer from powerbank
 - An extra USB-A port for charging phones without USB-C. 
 
+# Schematic and PCB
+## Schematic 
+![Schematic](./kicad/Powerbank/Drawings/Powerbank.svg)
+![Battery](./kicad/Powerbank/Drawings/Battery-Battery.svg)
+![Cell balancer](./kicad/Powerbank/Drawings/CellBalancer-Cell_Balancer-BQ4050.svg)
+![Battery charger controller BQ25703A](./kicad/Powerbank/Drawings/BatteryCharger-Battery_Charger-BQ25703A.svg)
+![USB-C PD controller](./kicad/Powerbank/Drawings/PDController-PD_Controller-TPS65988.svg)
+![Buck TPS63200](./kicad/Powerbank/Drawings/Buck-Buck-TPS563200.svg)
+![USB-C Connector and protcetion](./kicad/Powerbank/Drawings/USBC_ESDProtection-USB-C_and_ESD_Protection-TPD6S300A.svg)
+
+
 # Useful links
 - [Design your USB-C PD Device](https://www.electronicproducts.com/Analog_Mixed_Signal_ICs/Power_Management/Design_your_next_USB_Type_C_USB_PD_device_with_buck_boost_battery_chargers.aspx) 
 - [Dual port USB Type-C Power Delivery Powerbank Reference Design](http://www.ti.com/lit/ug/tidude8/tidude8.pdf)
