@@ -14,6 +14,10 @@ One of the problems when using li-ion batteries is the charging, without a prope
 - An extra USB-A port for charging phones without USB-C. 
 
 # Schematic and PCB
+
+## PCB
+![PCB](./kicad/Powerbank/Drawings/PowerbankPCB.png)
+
 ## Schematic 
 ![Schematic](./kicad/Powerbank/Drawings/Powerbank.svg)
 ![Battery](./kicad/Powerbank/Drawings/Battery-Battery.svg)
