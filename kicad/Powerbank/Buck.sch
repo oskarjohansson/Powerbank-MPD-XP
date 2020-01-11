@@ -4,10 +4,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
-Title ""
-Date ""
-Rev ""
+Sheet 4 7
+Title "USB-C PD controller with 4S battery charger"
+Date "2020-01-11"
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -394,7 +394,7 @@ Wire Notes Line
 	5600 6200 2600 6200
 Wire Notes Line
 	2600 6200 2600 4500
-Text Notes 2600 4450 0    50   ~ 0
+Text Notes 2600 4500 0    50   ~ 0
 Enabling buck converter 
 Wire Notes Line
 	8000 4050 3950 4050
@@ -404,7 +404,7 @@ Wire Notes Line
 	3950 2150 8000 2150
 Wire Notes Line
 	8000 2150 8000 4050
-Text Notes 3950 2100 0    50   ~ 0
+Text Notes 3950 2150 0    50   ~ 0
 Buck converter
 $Comp
 L Powerbank:TLV70433DBVR PS?
@@ -534,6 +534,6 @@ Wire Notes Line
 	9050 4500 9050 6200
 Wire Notes Line
 	9050 6200 6250 6200
-Text Notes 6250 4450 0    50   ~ 0
+Text Notes 6250 4500 0    50   ~ 0
 Linear 3V3 regulator
 $EndSCHEMATC
