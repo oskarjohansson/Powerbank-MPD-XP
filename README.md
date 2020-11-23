@@ -1,31 +1,32 @@
-# Powerbank 4S
-A powerbank to primarily use with MDP-XP Modular Power Supply. It can be found [here](https://www.welectron.com/Miniware-MDP-XP-Modular-Power-Supply). Though, the MDP-XP doesn't support PD, but only QC, so it won't be compatible. 
+# Power bank for MDP-XP
+>  A power bank to primarily use with MDP-XP Modular Power Supply. It can be found [here](https://www.welectron.com/Miniware-MDP-XP-Modular-Power-Supply). A first try was to use USB-PD, though after some research the unit only supports QC3.0, so it won't be compatible. So the power bank will only support 
 
 ## Background 
-One of the problems when using li-ion batteries is the charging, without a proper charger the cells wil be damages and probably start a fire. To remove these problems one solution would be a BMS with USB-C as a charging and discharging port. This doesn't exist yet, so someone has to make it. I also want to use it with both the powersupply and to charge my laptop using USB-C. 
+The MDP-XP power supply is really easy and small to use, though one limitation is that the USB inlet only supports QC3.0 and then low power.  Only the power inlet let the user have full power. So a small power bank to stack underneath the power supply would be really handy. 
 
 ## Specification
-- 4S high power Li-ion 
-- Charge with USB-C
-- Discharge with USB-C
+- 2S high power Li-ion.
+- Charge with USB.
+- Discharge with bananaplugs. 
 
 ### Extra 
-- Able to charge computer from powerbank
-- An extra USB-A port for charging phones without USB-C. 
+-  
 
 # Schematic and PCB
 
+> Now obsolete...
+
 ## PCB
-![PCB](./kicad/Powerbank/Drawings/PowerbankPCB.png)
+![PCB](./kicad/Drawings/PowerbankPCB.png)
 
 ## Schematic 
-![Schematic](./kicad/Powerbank/Drawings/Powerbank.svg)
-![Battery](./kicad/Powerbank/Drawings/Battery-Battery.svg)
-![Cell balancer](./kicad/Powerbank/Drawings/CellBalancer-Cell_Balancer-BQ4050.svg)
-![Battery charger controller BQ25703A](./kicad/Powerbank/Drawings/BatteryCharger-Battery_Charger-BQ25703A.svg)
-![USB-C PD controller](./kicad/Powerbank/Drawings/PDController-PD_Controller-TPS65988.svg)
-![Buck TPS63200](./kicad/Powerbank/Drawings/Buck-Buck-TPS563200.svg)
-![USB-C Connector and protcetion](./kicad/Powerbank/Drawings/USBC_ESDProtection-USB-C_and_ESD_Protection-TPD6S300A.svg)
+![Schematic](./kicad/Drawings/Powerbank.svg)
+![Battery](./kicad/Drawings/Battery-Battery.svg)
+![Cell balancer](./kicad/Drawings/CellBalancer-Cell_Balancer-BQ4050.svg)
+![Battery charger controller BQ25703A](./kicad/Drawings/BatteryCharger-Battery_Charger-BQ25703A.svg)
+![USB-C PD controller](./kicad/Drawings/PDController-PD_Controller-TPS65988.svg)
+![Buck TPS63200](./kicad/Drawings/Buck-Buck-TPS563200.svg)
+![USB-C Connector and protcetion](./kicad/Drawings/USBC_ESDProtection-USB-C_and_ESD_Protection-TPD6S300A.svg)
 
 
 # Useful links
