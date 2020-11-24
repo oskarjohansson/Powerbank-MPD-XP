@@ -16,8 +16,8 @@ $EndDescr
 $Sheet
 S 4500 2000 1000 1000
 U 5FA93056
-F0 "boost-module" 50
-F1 "boost-module.sch" 50
+F0 "Boost module" 50
+F1 "boost_module.sch" 50
 F2 "GND" I L 4500 2800 50 
 F3 "VIN" I L 4500 2250 50 
 F4 "VOUT" I R 5500 2250 50 
@@ -26,7 +26,7 @@ $Sheet
 S 3000 5000 1000 1000
 U 5E0D235E
 F0 "Battery" 50
-F1 "Battery.sch" 50
+F1 "battery.sch" 50
 F2 "BAT+" I R 4000 5250 50 
 F3 "BAT-" I R 4000 5700 50 
 F4 "CELL2" I R 4000 5400 50 
@@ -36,7 +36,7 @@ $Sheet
 S 4500 3500 1000 1000
 U 5FAE55EF
 F0 "Cell balancer" 50
-F1 "Cell balancer.sch" 50
+F1 "cell_balancer.sch" 50
 F2 "BAT+" I L 4500 3750 50 
 F3 "BAT-" I L 4500 4200 50 
 F4 "CELL1" I L 4500 4050 50 
@@ -50,7 +50,7 @@ $Sheet
 S 4500 5000 1000 1000
 U 5FAEE37B
 F0 "Charge module" 50
-F1 "Charge module.sch" 50
+F1 "charge_module.sch" 50
 F2 "BAT+" I L 4500 5250 50 
 F3 "BAT-" I L 4500 5700 50 
 $EndSheet
@@ -97,8 +97,8 @@ Connection ~ 4400 4200
 $Sheet
 S 6000 2000 1000 1000
 U 5FD24BFC
-F0 "connector.sch" 50
-F1 "connector.sch" 50
+F0 "Output connector" 50
+F1 "output_connector.sch" 50
 F2 "Vout" I L 6000 2250 50 
 $EndSheet
 Wire Wire Line
