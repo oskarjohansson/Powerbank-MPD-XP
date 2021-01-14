@@ -1,4 +1,4 @@
-18665243233137829
+18673281920888190
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82039,6 +82039,69 @@ varistor SIOV
 0
 2
 2
+connectors
+M5_7461383
+WE 7461383-3
+Integrated Circuit
+0
+16
+1
+connectors
+M6_7461098
+7461098-2
+Connector
+0
+25
+1
+connectors
+Microusb_105133-0011
+
+
+0
+8
+6
+connectors
+PJ079BH
+
+
+0
+5
+4
+connectors
+TAG_TC2030-IDC-NL
+
+
+0
+6
+6
+connectors
+TerminalBlock_02_P5.00mm
+Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5mm, size 10x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-2 pitch 5mm size 10x9.8mm^2 drill 1.3mm pad 2.6mm
+0
+2
+2
+connectors
+TerminalBlock_03_P5.00mm
+Terminal Block Phoenix MKDS-1,5-3, 3 pins, pitch 5mm, size 15x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-3 pitch 5mm size 15x9.8mm^2 drill 1.3mm pad 2.6mm
+0
+3
+3
+connectors
+USB_C_JAE_DX07S016JA1R1500
+
+
+0
+18
+10
+connectors
+XT30PW-M
+Connector XT30 Horizontal PCB Male, https://www.tme.eu/en/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf
+RC Connector XT30
+0
+4
+2
 fuses
 ATO_Fuseholder_3522-2
 
@@ -82046,6 +82109,20 @@ ATO_Fuseholder_3522-2
 0
 4
 2
+inductor
+Pulse_PA4344.XXXNLT
+Inductor SMD Pulse PA4320 https://www.mouser.se/datasheet/2/336/P771-1526896.pdf
+Inductor SMD Pulse PA4320
+0
+2
+2
+mosfet
+8-PowerWDFN
+WDFN-8
+MOSFET (N-Channel)
+0
+6
+3
 mosfet
 NE555DR
 D (R-PDSO-G8)
@@ -82073,7 +82150,7 @@ BQ29209DRBR
 
 0
 15
-10
+9
 outdoor-sense-footprint
 D_SMA-2
 Diode SMA (DO-214AC)
@@ -82165,45 +82242,3 @@ Step up module boost
 0
 4
 4
-private
-M5_7461383
-WE 7461383-3
-Integrated Circuit
-0
-16
-1
-private
-M6_7461098
-7461098-2
-Connector
-0
-25
-1
-private
-Microusb_105133-0011
-
-
-0
-8
-6
-private
-TAG_TC2030-IDC-NL
-
-
-0
-6
-6
-private
-TerminalBlock_02_P5.00mm
-Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5mm, size 10x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
-THT Terminal Block Phoenix MKDS-1,5-2 pitch 5mm size 10x9.8mm^2 drill 1.3mm pad 2.6mm
-0
-2
-2
-private
-TerminalBlock_03_P5.00mm
-Terminal Block Phoenix MKDS-1,5-3, 3 pins, pitch 5mm, size 15x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
-THT Terminal Block Phoenix MKDS-1,5-3 pitch 5mm size 15x9.8mm^2 drill 1.3mm pad 2.6mm
-0
-3
-3

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title "USB-C PD controller with 4S battery charger"
 Date "2020-01-11"
 Rev "1"
@@ -54,7 +54,7 @@ U 1 1 5E810B0B
 P 3750 3200
 F 0 "J3" H 3858 3381 50  0000 C CNN
 F 1 "Bat conn" H 3858 3290 50  0000 C CNN
-F 2 "Powerbank:XT30PW-M" H 3750 3200 50  0001 C CNN
+F 2 "connectors:XT30PW-M" H 3750 3200 50  0001 C CNN
 F 3 "~" H 3750 3200 50  0001 C CNN
 	1    3750 3200
 	1    0    0    -1  
@@ -99,8 +99,6 @@ Wire Notes Line
 	5000 2850 5000 4500
 Text Notes 5000 2850 0    50   ~ 0
 2S Li-Ion batteries
-Text HLabel 5650 3300 0    50   Input ~ 0
-BAT+
 Text HLabel 5650 4100 0    50   Input ~ 0
 BAT-
 Text HLabel 6200 3300 2    50   Input ~ 0
@@ -113,7 +111,7 @@ U 1 1 5FA99C7F
 P 3800 4200
 F 0 "J1" H 3908 4481 50  0000 C CNN
 F 1 "Balance conn" H 3908 4390 50  0000 C CNN
-F 2 "" H 3800 4200 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 3800 4200 50  0001 C CNN
 F 3 "~" H 3800 4200 50  0001 C CNN
 	1    3800 4200
 	1    0    0    -1  
@@ -124,8 +122,8 @@ Text HLabel 4200 4200 2    50   Input ~ 0
 CELL1
 Text HLabel 4200 4100 2    50   Input ~ 0
 CELL2
-Text HLabel 4100 3300 2    50   Input ~ 0
-BAT-
 Text HLabel 4100 3200 2    50   Input ~ 0
-BAT+
+BAT-
+Text HLabel 4100 3300 2    50   Input ~ 0
+CELL2
 $EndSCHEMATC
