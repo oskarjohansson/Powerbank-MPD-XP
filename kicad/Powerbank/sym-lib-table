@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name SamacSys_Parts)(type Legacy)(uri C:/Users/oskar/Desktop/kicad_lib/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name Powerbank-rescue)(type Legacy)(uri ${KIPRJMOD}/Powerbank-rescue.lib)(options "")(descr ""))
 )
