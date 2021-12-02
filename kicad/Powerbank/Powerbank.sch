@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Powerbank-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title "USB-C PD controller with 4S battery charger"
 Date "2020-01-11"
 Rev "1"
@@ -495,4 +494,10 @@ Wire Wire Line
 	8250 3600 8250 3200
 Wire Wire Line
 	7950 3200 8250 3200
+$Sheet
+S 3000 6000 1000 1000
+U 61A9F6E2
+F0 "Buck boost charger" 50
+F1 "BuckBoostCharger.sch" 50
+$EndSheet
 $EndSCHEMATC
