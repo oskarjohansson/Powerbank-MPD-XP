@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 6
 Title "USB-C PD controller with 4S battery charger"
 Date "2020-01-11"
 Rev "1"
@@ -14,200 +14,102 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5000 3900 1500 1000
-U 5E0CE0A0
-F0 "Battery Charger - BQ25703A" 50
-F1 "BatteryCharger.sch" 50
-$EndSheet
-$Sheet
-S 9000 3900 1000 1000
-U 5E0D01AD
-F0 "USB-C and ESD Protection - TPD6S300A" 50
-F1 "USBC_ESDProtection.sch" 50
-$EndSheet
-$Sheet
-S 7000 2400 1000 1000
-U 5E0D0913
-F0 "Buck - TPS563200" 50
-F1 "Buck.sch" 50
-$EndSheet
-$Sheet
 S 1500 3900 1000 1000
 U 5E0D235E
 F0 "Battery" 50
 F1 "Battery.sch" 50
 $EndSheet
-Text GLabel 2100 1150 0    50   Input ~ 0
-SCL_1
-Text GLabel 2100 1250 0    50   Input ~ 0
-SDA_1
 $Comp
 L Device:R R1
 U 1 1 5E3AB7DA
-P 2350 1150
-F 0 "R1" V 2300 1300 50  0000 C CNN
-F 1 "3.83k" V 2350 1150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 1150 50  0001 C CNN
-F 3 "~" H 2350 1150 50  0001 C CNN
-	1    2350 1150
+P 2300 1300
+F 0 "R1" V 2250 1450 50  0000 C CNN
+F 1 "4k7" V 2300 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 1300 50  0001 C CNN
+F 3 "~" H 2300 1300 50  0001 C CNN
+	1    2300 1300
 	0    1    1    0   
 $EndComp
 Text Notes 1850 850  0    50   ~ 0
 Bus pullups
-$Sheet
-S 7000 3900 1500 1000
-U 5E7BFD38
-F0 "PD Controller  TPS65988" 50
-F1 "PDController.sch" 50
-$EndSheet
 $Comp
 L Device:R R2
 U 1 1 5E7D5CC8
-P 2350 1250
-F 0 "R2" V 2300 1400 50  0000 C CNN
-F 1 "3.83k" V 2350 1250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 1250 50  0001 C CNN
-F 3 "~" H 2350 1250 50  0001 C CNN
-	1    2350 1250
+P 2300 1400
+F 0 "R2" V 2250 1550 50  0000 C CNN
+F 1 "4k7" V 2300 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 1400 50  0001 C CNN
+F 3 "~" H 2300 1400 50  0001 C CNN
+	1    2300 1400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 5E7D5F09
-P 2350 1350
-F 0 "R3" V 2300 1500 50  0000 C CNN
-F 1 "10k" V 2350 1350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 1350 50  0001 C CNN
-F 3 "~" H 2350 1350 50  0001 C CNN
-	1    2350 1350
+P 2300 1500
+F 0 "R3" V 2250 1650 50  0000 C CNN
+F 1 "4k7" V 2300 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 1500 50  0001 C CNN
+F 3 "~" H 2300 1500 50  0001 C CNN
+	1    2300 1500
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 5E7D608C
-P 2350 1450
-F 0 "R4" V 2300 1600 50  0000 C CNN
-F 1 "10k" V 2350 1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 1450 50  0001 C CNN
-F 3 "~" H 2350 1450 50  0001 C CNN
-	1    2350 1450
+P 2300 1600
+F 0 "R4" V 2250 1750 50  0000 C CNN
+F 1 "10k" V 2300 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 1600 50  0001 C CNN
+F 3 "~" H 2300 1600 50  0001 C CNN
+	1    2300 1600
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R5
 U 1 1 5E7D632E
-P 2350 1550
-F 0 "R5" V 2300 1700 50  0000 C CNN
-F 1 "3.83k" V 2350 1550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 1550 50  0001 C CNN
-F 3 "~" H 2350 1550 50  0001 C CNN
-	1    2350 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 5E7D678C
-P 2350 1650
-F 0 "R6" V 2300 1800 50  0000 C CNN
-F 1 "3.83k" V 2350 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 1650 50  0001 C CNN
-F 3 "~" H 2350 1650 50  0001 C CNN
-	1    2350 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 5E7D699A
-P 2350 1750
-F 0 "R7" V 2300 1900 50  0000 C CNN
-F 1 "3.83k" V 2350 1750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 1750 50  0001 C CNN
-F 3 "~" H 2350 1750 50  0001 C CNN
-	1    2350 1750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 5E7D6C41
-P 2350 1850
-F 0 "R8" V 2300 2000 50  0000 C CNN
-F 1 "3.83k" V 2350 1850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 1850 50  0001 C CNN
-F 3 "~" H 2350 1850 50  0001 C CNN
-	1    2350 1850
+P 2300 1700
+F 0 "R5" V 2250 1850 50  0000 C CNN
+F 1 "3.83k" V 2300 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 1700 50  0001 C CNN
+F 3 "~" H 2300 1700 50  0001 C CNN
+	1    2300 1700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2500 1850 2600 1850
+	2550 1300 2450 1300
 Wire Wire Line
-	2600 1850 2600 1750
+	2450 1400 2550 1400
+Connection ~ 2550 1400
 Wire Wire Line
-	2600 1150 2500 1150
+	2550 1400 2550 1300
 Wire Wire Line
-	2500 1250 2600 1250
-Connection ~ 2600 1250
+	2450 1500 2550 1500
+Connection ~ 2550 1500
 Wire Wire Line
-	2600 1250 2600 1150
+	2550 1500 2550 1400
 Wire Wire Line
-	2500 1350 2600 1350
-Connection ~ 2600 1350
+	2450 1600 2550 1600
+Connection ~ 2550 1600
 Wire Wire Line
-	2600 1350 2600 1250
+	2550 1600 2550 1500
 Wire Wire Line
-	2500 1450 2600 1450
-Connection ~ 2600 1450
+	2450 1700 2550 1700
 Wire Wire Line
-	2600 1450 2600 1350
+	2550 1700 2550 1600
 Wire Wire Line
-	2500 1550 2600 1550
-Connection ~ 2600 1550
+	2150 1700 2050 1700
 Wire Wire Line
-	2600 1550 2600 1450
+	2050 1600 2150 1600
 Wire Wire Line
-	2500 1650 2600 1650
-Connection ~ 2600 1650
+	2150 1500 2050 1500
 Wire Wire Line
-	2600 1650 2600 1550
+	2050 1400 2150 1400
 Wire Wire Line
-	2500 1750 2600 1750
-Connection ~ 2600 1750
+	2150 1300 2050 1300
 Wire Wire Line
-	2600 1750 2600 1650
-Text GLabel 2450 1000 0    50   Input ~ 0
-PD_LDO_3V3
-Text GLabel 2100 1350 0    50   Input ~ 0
-IRQ_1
-Text GLabel 2100 1450 0    50   Input ~ 0
-IRQ_2
-Text GLabel 2100 1550 0    50   Input ~ 0
-SCL_2
-Text GLabel 2100 1650 0    50   Input ~ 0
-SDA_2
-Text GLabel 2100 1750 0    50   Input ~ 0
-PROCHOT
-Text GLabel 2100 1850 0    50   Input ~ 0
-CHRG_OK
-Wire Wire Line
-	2100 1850 2200 1850
-Wire Wire Line
-	2200 1750 2100 1750
-Wire Wire Line
-	2100 1650 2200 1650
-Wire Wire Line
-	2200 1550 2100 1550
-Wire Wire Line
-	2100 1450 2200 1450
-Wire Wire Line
-	2200 1350 2100 1350
-Wire Wire Line
-	2100 1250 2200 1250
-Wire Wire Line
-	2200 1150 2100 1150
-Wire Wire Line
-	2600 1000 2600 1150
-Wire Wire Line
-	2450 1000 2600 1000
-Connection ~ 2600 1150
+	2550 1150 2550 1300
+Connection ~ 2550 1300
 Wire Notes Line
 	2850 900  2850 2000
 Wire Notes Line
@@ -216,12 +118,6 @@ Wire Notes Line
 	1500 900  1500 2000
 Wire Notes Line
 	1500 2000 2850 2000
-$Sheet
-S 3000 3900 1500 1000
-U 5E0CBF52
-F0 "Cell Balancer - BQ4050" 50
-F1 "CellBalancer.sch" 50
-$EndSheet
 Wire Wire Line
 	2450 4000 3050 4000
 Wire Wire Line
@@ -305,199 +201,102 @@ F 3 "" H 4450 4700 50  0001 C CNN
 	1    4450 4700
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:+VDC #PWR0106
-U 1 1 5E1B6553
-P 5050 4700
-F 0 "#PWR0106" H 5050 4600 50  0001 C CNN
-F 1 "+VDC" V 5050 4930 50  0000 L CNN
-F 2 "" H 5050 4700 50  0001 C CNN
-F 3 "" H 5050 4700 50  0001 C CNN
-	1    5050 4700
-	0    1    1    0   
-$EndComp
-Text GLabel 5700 4850 1    50   Input ~ 0
-SDA_1
-Text GLabel 5800 4850 1    50   Input ~ 0
-SCL_1
-Text GLabel 6450 4700 0    50   Input ~ 0
-PP_HV
-Wire Wire Line
-	5700 4850 5700 5100
-Wire Wire Line
-	5800 4850 5800 5000
-Wire Wire Line
-	9450 5100 9450 4850
-Wire Wire Line
-	9550 5000 9550 4850
-Text GLabel 7700 4850 1    50   Input ~ 0
-SDA_1
-Text GLabel 9450 4850 1    50   Input ~ 0
-SDA_1
-Text GLabel 9550 4850 1    50   Input ~ 0
-SCL_1
-Text GLabel 7800 4850 1    50   Input ~ 0
-SCL_1
-Connection ~ 7700 5100
-Wire Wire Line
-	7700 4850 7700 5100
-Wire Wire Line
-	7700 5100 9450 5100
-Wire Wire Line
-	5700 5100 7700 5100
-Wire Wire Line
-	5800 5000 7800 5000
-Wire Wire Line
-	7800 5000 7800 4850
-Connection ~ 7800 5000
-Wire Wire Line
-	7800 5000 9550 5000
-Text GLabel 7050 4700 2    50   Input ~ 0
-PP_HV
-Wire Wire Line
-	7050 4700 6450 4700
-$Comp
-L power:+5V #PWR0107
-U 1 1 5E1D3B95
-P 7950 3200
-F 0 "#PWR0107" H 7950 3050 50  0001 C CNN
-F 1 "+5V" V 7965 3328 50  0000 L CNN
-F 2 "" H 7950 3200 50  0001 C CNN
-F 3 "" H 7950 3200 50  0001 C CNN
-	1    7950 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR0108
-U 1 1 5E1D6441
-P 7950 3300
-F 0 "#PWR0108" H 7950 3150 50  0001 C CNN
-F 1 "+3V3" V 7965 3428 50  0000 L CNN
-F 2 "" H 7950 3300 50  0001 C CNN
-F 3 "" H 7950 3300 50  0001 C CNN
-	1    7950 3300
-	0    -1   -1   0   
-$EndComp
-Text GLabel 6450 4600 0    50   Input ~ 0
-SYS
-Text GLabel 7050 3300 2    50   Input ~ 0
-SYS
-Text GLabel 8450 4750 0    50   Input ~ 0
-VBUS_A
-Text GLabel 8450 4650 0    50   Input ~ 0
-VBUS_C
-Text GLabel 9050 4650 2    50   Input ~ 0
-VBUS_C
-Text GLabel 9050 4750 2    50   Input ~ 0
-VBUS_A
-Wire Wire Line
-	9050 4750 8450 4750
-Wire Wire Line
-	8450 4650 9050 4650
-$Comp
-L power:+3V3 #PWR0109
-U 1 1 5E1DE357
-P 7050 4600
-F 0 "#PWR0109" H 7050 4450 50  0001 C CNN
-F 1 "+3V3" V 7065 4728 50  0000 L CNN
-F 2 "" H 7050 4600 50  0001 C CNN
-F 3 "" H 7050 4600 50  0001 C CNN
-	1    7050 4600
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR0110
-U 1 1 5E1DEC22
-P 7050 4500
-F 0 "#PWR0110" H 7050 4350 50  0001 C CNN
-F 1 "+5V" V 7065 4628 50  0000 L CNN
-F 2 "" H 7050 4500 50  0001 C CNN
-F 3 "" H 7050 4500 50  0001 C CNN
-	1    7050 4500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8150 3500 8150 3300
-Wire Wire Line
-	8150 3300 7950 3300
-Wire Wire Line
-	6850 4500 7050 4500
-Text GLabel 9050 4000 2    50   Input ~ 0
-DP_A
-Text GLabel 9050 4100 2    50   Input ~ 0
-DN_A
-Text GLabel 9050 4200 2    50   Input ~ 0
-DP_C
-Text GLabel 9050 4300 2    50   Input ~ 0
-DN_C
-Text GLabel 8450 4300 0    50   Input ~ 0
-DN_C
-Text GLabel 8450 4200 0    50   Input ~ 0
-DP_C
-Text GLabel 8450 4100 0    50   Input ~ 0
-DN_A
-Text GLabel 8450 4000 0    50   Input ~ 0
-DP_A
-Text GLabel 9050 4400 2    50   Input ~ 0
-CC1
-Text GLabel 9050 4500 2    50   Input ~ 0
-CC2
-Text GLabel 8450 4400 0    50   Input ~ 0
-CC1
-Text GLabel 8450 4500 0    50   Input ~ 0
-CC2
-Wire Wire Line
-	8450 4500 9050 4500
-Wire Wire Line
-	9050 4400 8450 4400
-Wire Wire Line
-	8450 4300 9050 4300
-Wire Wire Line
-	9050 4200 8450 4200
-Wire Wire Line
-	8450 4100 9050 4100
-Wire Wire Line
-	9050 4000 8450 4000
-Wire Wire Line
-	4450 4700 5050 4700
-Text GLabel 3800 4850 1    50   Input ~ 0
-SCL_1
 Text GLabel 3700 4850 1    50   Input ~ 0
 SDA_1
-Wire Wire Line
-	5800 5000 3800 5000
-Wire Wire Line
-	3800 5000 3800 4850
-Connection ~ 5800 5000
-Wire Wire Line
-	5700 5100 3700 5100
-Wire Wire Line
-	3700 5100 3700 4850
-Connection ~ 5700 5100
-Wire Wire Line
-	6450 4600 6650 4600
-Wire Wire Line
-	6650 4600 6650 3300
-Wire Wire Line
-	6650 3300 7050 3300
-Wire Wire Line
-	6750 3500 6750 4600
-Wire Wire Line
-	6750 4600 7050 4600
-Wire Wire Line
-	6750 3500 8150 3500
-Wire Wire Line
-	6850 4500 6850 3600
-Wire Wire Line
-	6850 3600 8250 3600
-Wire Wire Line
-	8250 3600 8250 3200
-Wire Wire Line
-	7950 3200 8250 3200
 $Sheet
-S 3000 6000 1000 1000
+S 2000 5500 1000 1500
 U 61A9F6E2
 F0 "Buck boost charger" 50
 F1 "BuckBoostCharger.sch" 50
+F2 "VBUS" I L 2000 5850 50 
+F3 "VSYS" I L 2000 6000 50 
+F4 "SDA" I R 3000 6650 50 
+F5 "SCL" I R 3000 6750 50 
+F6 "CHRG_OK" I L 2000 6300 50 
+F7 "OTG" I L 2000 6400 50 
+F8 "CMPOUT" I L 2000 5750 50 
+F9 "CMPIN" I L 2000 5650 50 
+F10 "BAT+" I L 2000 5550 50 
+$EndSheet
+$Sheet
+S 3500 5500 1000 1500
+U 61B3C887
+F0 "Processor STM32" 50
+F1 "Processor.sch" 50
+F2 "USB_DM" I R 4500 5650 50 
+F3 "USB_DP" I R 4500 5750 50 
+F4 "SDA" I L 3500 6650 50 
+F5 "SCL" I L 3500 6750 50 
+F7 "INT_N" I R 4500 6000 50 
+$EndSheet
+$Sheet
+S 5000 5500 1000 1500
+U 61B869E1
+F0 "USB Controller" 50
+F1 "USB_Controller.sch" 50
+F2 "SDA" I L 5000 6650 50 
+F3 "SCL" I L 5000 6750 50 
+F4 "INT_N" I L 5000 6000 50 
+F5 "VBUS" I R 6000 5900 50 
+F6 "VCONN" I R 6000 5750 50 
+F7 "USB_DM" I L 5000 5650 50 
+F8 "USB_DP" I L 5000 5750 50 
+$EndSheet
+Wire Wire Line
+	5000 6750 4850 6750
+Wire Wire Line
+	4850 6750 4850 7200
+Wire Wire Line
+	4850 7200 3100 7200
+Wire Wire Line
+	3100 7200 3100 6750
+Wire Wire Line
+	3100 6750 3000 6750
+Wire Wire Line
+	3000 6650 3400 6650
+Wire Wire Line
+	3500 6750 3100 6750
+Connection ~ 3100 6750
+Wire Wire Line
+	3400 6650 3400 7100
+Wire Wire Line
+	3400 7100 4750 7100
+Wire Wire Line
+	4750 7100 4750 6650
+Wire Wire Line
+	4750 6650 5000 6650
+Connection ~ 3400 6650
+Wire Wire Line
+	3400 6650 3500 6650
+Text Label 4550 7200 0    50   ~ 0
+SCL
+Text Label 4550 7100 0    50   ~ 0
+SDA
+Text Label 2050 1300 2    50   ~ 0
+SDA
+Text Label 2050 1400 2    50   ~ 0
+SCL
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61BABA3E
+P 2550 1150
+F 0 "#PWR?" H 2550 1000 50  0001 C CNN
+F 1 "+3V3" H 2565 1323 50  0000 C CNN
+F 2 "" H 2550 1150 50  0001 C CNN
+F 3 "" H 2550 1150 50  0001 C CNN
+	1    2550 1150
+	1    0    0    -1  
+$EndComp
+Text Label 2050 1500 2    50   ~ 0
+INT_N
+Wire Wire Line
+	4500 6000 5000 6000
+Text Label 4850 6000 2    50   ~ 0
+INT_N
+$Sheet
+S 3000 3900 1500 1000
+U 5E0CBF52
+F0 "Cell Balancer - BQ4050" 50
+F1 "CellBalancer.sch" 50
 $EndSheet
 $EndSCHEMATC
